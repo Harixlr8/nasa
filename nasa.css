@@ -1,0 +1,108 @@
+.header{
+    background-image: url(starbg.png);
+    height: 5;
+    width: 100%;
+    margin-top: -3em;
+    
+}
+.container-fluid{
+    background-color: black;
+}
+.nasalogo{
+    width: 8em;
+    padding-left: 1em;
+    margin-left: 4em;
+}
+.navnar-nav{
+    margin-top: -1.5em;
+}
+.mav-link{
+    color: white;
+    
+}
+
+.collapse{
+    padding-right:5em;
+    margin-top: -2em;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 1.2em;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+ .dropdown-menu{
+    background-color: #1e5cc7;
+ }
+ .dropdown-item{
+    color: white;
+ }
+ a.nav-link:hover{
+    background-color: #1e5cc7;
+    
+ }
+ .list-group{
+    flex-direction: row;
+    padding-left: 15em;
+    padding-bottom: .5em;
+    margin-top: -1em;
+}
+.bg-light{
+   cursor: pointer;
+}
+ .list-group-item{
+    background-color: #5d7fb9;
+    color: #e5e9e8;
+    font-size: .9em;
+    cursor: pointer;
+ }
+ li.list-group-item:hover{
+    background-color: #1e5cc7;
+ }
+
+ @media (max-width:1100px){
+
+    .list-group{
+        display: none;
+    }
+ }
+ .card{
+   background-color: #1e5cc7;
+   color: white;
+   font-size: small;
+ }
+ .climatediv{
+    margin-top: -20em;
+    margin-left: 44em;
+ }
+@media (max-width:1400px){
+    .climatediv{
+        margin-top: 0em;
+        margin-left: 0em;
+        width: 20;
+    }
+}
+.more{
+    margin-top: 1em;
+    background-color: #1e5cc7;
+    cursor: pointer;
+}
+.more:hover{
+    text-decoration: underline;
+}
+.footertext{
+    color: #1e5cc7;
+    text-align: end;
+
+}
+.foot{
+    display: inline-block;
+    margin-right:1em;
+    cursor: pointer;
+}
+.foot:hover{
+    text-decoration: underline;
+}
